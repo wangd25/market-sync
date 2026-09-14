@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["node", "@playwright/test"],
+    "paths": { "@marketsync/*": ["./packages/*/src/index.ts"] }
+  },
+  "include": ["scripts/**/*.ts", "e2e/**/*.ts", "*.config.ts"]
+}

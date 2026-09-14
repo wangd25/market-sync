@@ -1,0 +1,13 @@
+packages:
+  - apps/*
+  - packages/*
+  - services/*
+
+allowBuilds:
+  esbuild: true
+  sharp: true
+  spawn-sync: true
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp

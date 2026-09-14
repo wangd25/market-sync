@@ -1,0 +1,20 @@
+{
+  "name": "@marketsync/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "start": "next start --hostname 0.0.0.0",
+    "build": "next build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@marketsync/core": "workspace:*",
+    "@marketsync/fixtures": "workspace:*",
+    "@marketsync/shared-types": "workspace:*",
+    "@marketsync/ui": "workspace:*",
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}

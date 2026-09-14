@@ -1,0 +1,3 @@
+apps/web/next-env.d.ts
+apps/web/.next/
+apps/extension/.output/
